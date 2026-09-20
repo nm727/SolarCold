@@ -19,6 +19,7 @@ import logoSqli from '../../assets/logo_sqli.png'
 import logoGreenImpact from '../../assets/logo_green_impact.png'
 import logoEni from '../../assets/logo_enit.png'
 import logoQehna from '../../assets/logo_qehna.png'
+import heroBg from '../../assets/background-image2.jpg'
 import './Overview.css'
 
 function Overview() {
@@ -26,7 +27,10 @@ function Overview() {
     <div className="overview">
       {/* Page Hero */}
       <section className="page-hero">
-        <div className="page-hero-bg" />
+        <div className="page-hero-bg">
+          <img src={heroBg} alt="" className="page-hero-bg-img" />
+          <div className="page-hero-bg-overlay" />
+        </div>
         <div className="page-hero-content">
           <span className="page-tag">Project Overview</span>
           <h1 className="page-title">

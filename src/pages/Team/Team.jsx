@@ -5,6 +5,7 @@ import logoLree from '../../assets/logo_lree.png'
 import logoEni from '../../assets/logo_enit.png'
 import logoSqli from '../../assets/logo_sqli.png'
 import signCeremony from '../../assets/sign_ceremony.png'
+import heroBg from '../../assets/background-image1.jpg'
 import './Team.css'
 
 const teamMembers = [
@@ -100,7 +101,10 @@ function Team() {
     <div className="team">
       {/* Page Hero */}
       <section className="page-hero">
-        <div className="page-hero-bg" />
+        <div className="page-hero-bg">
+          <img src={heroBg} alt="" className="page-hero-bg-img" />
+          <div className="page-hero-bg-overlay" />
+        </div>
         <div className="page-hero-content">
           <span className="page-tag">Our Team</span>
           <h1 className="page-title">

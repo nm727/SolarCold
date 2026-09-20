@@ -12,16 +12,27 @@ import {
   Shield,
 } from 'lucide-react'
 import heroBg from '../../assets/home_background_img.png'
+import allLogosBand from '../../assets/all-logos-together-band.png'
 import logoSolarcold from '../../assets/logo_solarcold.png'
 import logoGreenImpact from '../../assets/logo_green_impact.png'
 import logoEni from '../../assets/logo_enit.png'
 import logoUtm from '../../assets/logo_utm.png'
 import logoAnpr from '../../assets/logo_anpr.png'
+import logoLse from '../../assets/logo_lse.png'
+import logoLree from '../../assets/logo_lree.png'
+import logoSqli from '../../assets/logo_sqli.png'
+import logoQehna from '../../assets/logo_qehna.png'
 import './Home.css'
 
 function Home() {
   return (
     <div className="home">
+
+      {/* Logos Band */}
+      <div className="logos-band">
+        <img src={allLogosBand} alt="Project partner logos" className="logos-band__img" />
+      </div>
+
       {/* Hero Section */}
       <section className="hero">
         <div className="hero-bg">
@@ -33,10 +44,6 @@ function Home() {
         </div>
 
         <div className="hero-content">
-          <div className="hero-badge">
-            <Leaf size={14} />
-            <span>Kickoff Presentation · 28 April 2026</span>
-          </div>
 
           <h1 className="hero-title">
             Smart, Connected &
@@ -298,12 +305,16 @@ function Home() {
             </div>
           </div>
           <div className="footer-partners">
-            <span className="footer-partners-label">Partners & Affiliations</span>
+            <span className="footer-partners-label">Partners &amp; Affiliations</span>
             <div className="footer-partner-logos">
               <img src={logoGreenImpact} alt="Green Impact" />
+              <img src={logoAnpr} alt="ANPR" />
               <img src={logoEni} alt="ENIT" />
               <img src={logoUtm} alt="UTM" />
-              <img src={logoAnpr} alt="ANPR" />
+              <img src={logoLse} alt="LSE" />
+              <img src={logoLree} alt="LREE" />
+              <img src={logoSqli} alt="SQLI" />
+              <img src={logoQehna} alt="Qehna" />
             </div>
           </div>
           <div className="footer-bottom">

@@ -1,95 +1,84 @@
 import { CheckCircle, Circle, Clock, ArrowRight, Star } from 'lucide-react'
 import { Link } from 'react-router-dom'
+import heroBg from '../../assets/background-image1.jpg'
 import './Roadmap.css'
 
 const roadmapPhases = [
   {
     phase: 'OS1',
-    title: 'Energy Needs Assessment',
-    period: 'M1 – M2 · Led by LREE with LSE',
+    title: `Analyse des besoins et spécifications techniques`,
+    period: 'M2',
     status: 'current',
-    description: 'Evaluate the energy requirements of the cold storage containers and define the PV specifications for integration.',
+    description: `Au cours des deux premiers mois du projet, une étude préliminaire sera réalisée afin d'identifier les besoins énergétiques, thermiques et frigorifiques de la chambre froide. Cette phase aboutira également à la définition des spécifications techniques nécessaires à l'intégration du système photovoltaïque.`,
     milestones: [
-      { text: 'Preliminary studies on energy, thermal and refrigeration needs', done: true },
-      { text: 'Define PV integration technical specifications', done: false },
-      { text: 'Analyse thermal and energy characteristics', done: false },
-      { text: 'Define electrical loads for the refrigeration system', done: false },
-      { text: 'Deliverable: Technical report on energy needs and PV specifications (M2)', done: false },
+      { text: `Étude préliminaire des besoins énergétiques, thermiques et frigorifiques`, done: true },
+      { text: `Définition des spécifications techniques pour l'intégration du système PV`, done: false },
     ],
   },
   {
     phase: 'OS2',
-    title: 'Thermal & Energy Optimisation',
-    period: 'M3 – M6 · Led by LREE with LETTM',
+    title: `Optimisation du système frigorifique`,
+    period: 'M4 – M6',
     status: 'upcoming',
-    description: 'Analyse thermal losses and refrigeration performance (COP, efficiency) to propose validated improvements.',
+    description: `À partir des résultats de l'étude préliminaire, des simulations des cycles frigorifiques seront réalisées afin d'optimiser les performances énergétiques de l'installation (M4). Les améliorations proposées seront ensuite validées par des analyses et des simulations détaillées, conduisant à une configuration optimisée du système (M6).`,
     milestones: [
-      { text: 'Analytical study of thermal losses and refrigeration performance (COP)', done: false },
-      { text: 'Simulate refrigeration cycles with optimised refrigerants', done: false },
-      { text: 'Propose improvements to reduce losses and optimise cycles', done: false },
-      { text: 'Deliverable: Thermal analysis report with optimisation solutions (M6)', done: false },
+      { text: `Simulations des cycles frigorifiques pour optimiser les performances énergétiques (M4)`, done: false },
+      { text: `Analyses et simulations détaillées pour valider les améliorations proposées`, done: false },
+      { text: `Configuration optimisée du système frigorifique (M6)`, done: false },
     ],
   },
   {
     phase: 'OS3',
-    title: 'PV System Design & Sizing',
-    period: 'M5 – M9 · Led by LSE',
+    title: `Conception du système photovoltaïque`,
+    period: 'M9',
     status: 'upcoming',
-    description: 'Dimension, simulate and design the photovoltaic system for optimal integration with the optimised cold storage.',
+    description: `Le système photovoltaïque destiné à alimenter la chambre froide sera modélisé et dimensionné en fonction des besoins identifiés. À l'issue de cette étape (M9), le dimensionnement sera validé et prêt pour la phase d'installation.`,
     milestones: [
-      { text: 'Dimension electrical energy needs for optimised cold storage', done: false },
-      { text: 'Study, simulate and design the adapted PV system', done: false },
-      { text: 'Theoretical validation and PV system modelling', done: false },
-      { text: 'Deliverable: PV design and simulation report with validated sizing (M9)', done: false },
+      { text: `Modélisation et dimensionnement du système photovoltaïque`, done: false },
+      { text: `Validation du dimensionnement PV et préparation pour l'installation (M9)`, done: false },
     ],
   },
   {
     phase: 'OS4',
-    title: 'Experimental Validation',
-    period: 'M9 – M18 · Led by LREE + LSE with Living Lab & LETTM',
+    title: `Réalisation du démonstrateur`,
+    period: 'M18',
     status: 'upcoming',
-    description: 'Full installation, experimental monitoring of thermal and energy performance, cost analysis, and comparison with conventional systems.',
+    description: `Cette étape comprend l'acquisition des conteneurs, l'installation de la chambre froide optimisée ainsi que l'intégration du système photovoltaïque. La mise en service du démonstrateur et le suivi de ses performances seront réalisés à l'échéance du mois 18.`,
     milestones: [
-      { text: 'Acquire containers and install cold storage + PV system', done: false },
-      { text: 'Experimental monitoring of thermal and energy performance', done: false },
-      { text: 'Evaluate energy gains and analyse operating costs', done: false },
-      { text: 'Comparison with conventional system', done: false },
-      { text: 'Deliverable: Final validation report and recommendations (M18)', done: false },
+      { text: `Acquisition des conteneurs`, done: false },
+      { text: `Installation de la chambre froide optimisée`, done: false },
+      { text: `Intégration du système photovoltaïque`, done: false },
+      { text: `Mise en service du démonstrateur et suivi des performances (M18)`, done: false },
     ],
   },
   {
     phase: 'OS5',
-    title: 'EMS Algorithm Development',
-    period: 'M7 – M12 · Led by LSE with SQLI',
+    title: `Développement du système de gestion énergétique (EMS)`,
+    period: 'M12',
     status: 'upcoming',
-    description: 'Design, develop, test, and optimise the intelligent Energy Management System algorithm integrating PV, storage, and cold loads.',
+    description: `Un premier prototype fonctionnel de l'algorithme de gestion de l'énergie (EMS) sera développé et testé en laboratoire. Les performances de cet algorithme seront ensuite optimisées à partir de cas d'utilisation réels, avec une validation prévue au mois 12.`,
     milestones: [
-      { text: 'Analyse specific energy management needs for sustainable buildings', done: false },
-      { text: 'Design and develop EMS algorithm with IT principles', done: false },
-      { text: 'Test algorithm on simulated and real use cases', done: false },
-      { text: 'Fine-tune and optimise algorithm based on test results', done: false },
-      { text: 'Deliverable: Functional EMS with documentation and validation report (M12)', done: false },
+      { text: `Développement du prototype fonctionnel de l'algorithme EMS`, done: false },
+      { text: `Tests en laboratoire de l'algorithme EMS`, done: false },
+      { text: `Optimisation des performances sur la base de cas d'utilisation réels`, done: false },
+      { text: `Validation de l'algorithme EMS (M12)`, done: false },
     ],
   },
   {
     phase: 'OS6',
-    title: 'Digital Twin & Platforms',
-    period: 'M12 – M24 · Led by LSE with SQLI, LREE & LETTM',
+    title: `Développement du jumeau numérique et de la plateforme collaborative`,
+    period: 'M24',
     status: 'upcoming',
-    description: 'Complete Digital Twin model (PV, storage, loads, EMS), mobile farmer app, web marketplace for cold storage sharing, and national statistical observatory.',
+    description: `La dernière phase du projet portera sur le développement et la validation d'un premier prototype du Digital Twin de la chambre froide. En parallèle, une plateforme web destinée à la mutualisation et au suivi des chambres froides sera développée et mise en ligne. Ces deux livrables sont prévus pour le mois 24.`,
     milestones: [
-      { text: 'Acquire and process real system data (PV, storage, loads, EMS)', done: false },
-      { text: 'Develop holistic mathematical and numerical model of the platform', done: false },
-      { text: 'Integrate and calibrate Digital Twin across operational scenarios', done: false },
-      { text: 'Validate model with real data and varied scenarios', done: false },
-      { text: 'Implement virtual test environment for Digital Twin', done: false },
-      { text: 'Develop mobile application for small-scale farmer cold room management', done: false },
-      { text: 'Develop web marketplace for cold storage sharing and co-location in Tunisia', done: false },
-      { text: 'Deploy statistical observatory on cold storage supply and demand', done: false },
-      { text: 'Deliverable: Complete Digital Twin ecosystem + apps + marketplace (M24)', done: false },
+      { text: `Développement d'un premier prototype du Digital Twin de la chambre froide`, done: false },
+      { text: `Validation du prototype du Digital Twin`, done: false },
+      { text: `Développement de la plateforme web de mutualisation et suivi des chambres froides`, done: false },
+      { text: `Mise en ligne de la plateforme collaborative (M24)`, done: false },
     ],
   },
 ]
+
 
 function getStatusConfig(status) {
   switch (status) {
@@ -113,7 +102,10 @@ function Roadmap() {
     <div className="roadmap">
       {/* Page Hero */}
       <section className="page-hero">
-        <div className="page-hero-bg" />
+        <div className="page-hero-bg">
+          <img src={heroBg} alt="" className="page-hero-bg-img" />
+          <div className="page-hero-bg-overlay" />
+        </div>
         <div className="page-hero-content">
           <span className="page-tag">Roadmap</span>
           <h1 className="page-title">
