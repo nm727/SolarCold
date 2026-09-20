@@ -54,7 +54,7 @@ function Home() {
           </h1>
 
           <p className="hero-description">
-            SolarCold is developing two mobile, connected cold storage containers powered by
+            SolarCold is developing a mobile, connected cold storage container powered by
             photovoltaic panels — integrating smart energy management (EMS) and Digital Twin
             technology to reduce post-harvest losses by 25% and improve food security for
             small-scale farmers in rural Tunisia.
@@ -72,7 +72,7 @@ function Home() {
 
           <div className="hero-stats">
             <div className="stat">
-              <span className="stat-number">2</span>
+              <span className="stat-number">1</span>
               <span className="stat-label">Mobile Containers</span>
             </div>
             <div className="stat-divider" />
@@ -121,7 +121,7 @@ function Home() {
               </div>
               <h3>Photovoltaic Powered</h3>
               <p>
-                Two mobile cold storage containers powered entirely by solar PV panels — sized
+                A mobile cold storage containers powered entirely by solar PV panels — sized
                 and optimised for Tunisian rural conditions, delivering autonomous off-grid
                 refrigeration. Starting at TRL 4, targeting TRL 7.
               </p>
@@ -181,8 +181,8 @@ function Home() {
               </div>
               <h3>Mobile & Connected</h3>
               <p>
-                Two container-based cold rooms — one installed at Manouba Technopole, one at
-                ENIT — connected, portable, and designed for repurposed logistics containers
+                A container-based cold room installed at
+                ENIT connected, portable, and designed for repurposed logistics containers
                 adapted to rural agricultural zones.
               </p>
             </div>
@@ -208,10 +208,10 @@ function Home() {
               </p>
               <p className="impact-text">
                 Existing cold storage facilities are <strong>concentrated with industrial and logistics
-                operators</strong>, making access difficult for small-scale farmers and reinforcing
+                  operators</strong>, making access difficult for small-scale farmers and reinforcing
                 value chain imbalances. Conventional systems are energy-intensive and rely on
-                outdated technologies. SolarCold develops <strong>two mobile, connected, solar-powered
-                containers</strong> as a decentralised alternative — targeting a 25% reduction in
+                outdated technologies. SolarCold develops <strong>a mobile, connected, solar-powered
+                  container</strong> as a decentralised alternative — targeting a 25% reduction in
                 post-harvest losses.
               </p>
 
@@ -265,7 +265,7 @@ function Home() {
             <div className="cta-content">
               <h2>Ready to Learn More?</h2>
               <p>
-                Explore our detailed project overview, meet the team, and discover how SolarCold is 
+                Explore our detailed project overview, meet the team, and discover how SolarCold is
                 making an impact in the fight against climate change.
               </p>
               <div className="cta-actions">
@@ -294,7 +294,7 @@ function Home() {
                 <img src={logoSolarcold} alt="SolarCold" className="footer-logo-img" />
                 <span>SolarCold</span>
               </div>
-              <p>Project T3P3 — A Green Impact initiative. Development of two smart, connected and mobile cold storage containers powered by photovoltaic panels for rural Tunisia.</p>
+              <p>Project T3P3 — A Green Impact initiative. Development of a smart, connected and mobile cold storage container powered by photovoltaic panels for rural Tunisia.</p>
             </div>
             <div className="footer-links">
               <Link to="/">Home</Link>

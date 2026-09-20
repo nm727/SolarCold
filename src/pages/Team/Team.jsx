@@ -9,13 +9,7 @@ import heroBg from '../../assets/background-image1.jpg'
 import './Team.css'
 
 const teamMembers = [
-  {
-    name: 'Sondes SKANDER-MUSTAPHA',
-    role: 'Project Lead',
-    bio: 'Project leader of SolarCold (T3P3) at ENIT. Heads the QehnA team within LSE, with extensive expertise in renewable energy, modelling, and energy system integration. Co-author of 10+ publications and 3 patents in PV systems, microgrids, and energy management.',
-    expertise: ['Project Coordination', 'Renewable Energy', 'PV & Microgrids', 'Patents'],
-    avatar: logoQehna,
-  },
+
   {
     name: 'Laboratory of Electrical Systems (LSE)',
     role: 'Coordinating Lab — ENIT',
@@ -30,13 +24,7 @@ const teamMembers = [
     expertise: ['Thermal Performance', 'Refrigeration Cycles', 'Energy Valorisation', 'CFD Modelling'],
     avatar: logoLree,
   },
-  {
-    name: 'Lab of Energy, Thermal & Mass Transfers (LETTM)',
-    role: 'Research Partner',
-    bio: 'The Phase Change and Transfers research group contributes expertise in building energetics, thermal-mass modelling in materials, convective and diffusive exchange, and phase change. Collaborates on OS2 (thermal optimisation), OS4 (validation), and OS6 (Digital Twin thermal modelling).',
-    expertise: ['Heat Transfer', 'Phase Change', 'Thermal-Mass Modelling', 'Building Energetics'],
-    avatar: logoEni,
-  },
+
   {
     name: 'SQLI Services',
     role: 'Industrial Partner — Tunisia',
@@ -79,13 +67,7 @@ const teamMembers = [
   //   expertise: ['Implementation', 'Teamwork', 'Project Support'],
   //   avatar: null,
   // },
-  {
-    name: 'Rural Farming Communities',
-    role: 'Primary Beneficiaries — Living Lab',
-    bio: 'Small-scale rural farmers in Tunisia participating as a Living Lab in OS4 experimental validation. Will benefit from mobile solar cold storage, the mobile management app, and the web marketplace for cold storage sharing and co-location across Tunisia.',
-    expertise: ['Agriculture', 'Food Security', 'Living Lab', 'Market Access'],
-    avatar: signCeremony,
-  },
+
 ]
 
 function getInitials(name) {
@@ -111,7 +93,7 @@ function Team() {
             The Consortium Behind <span className="text-gold-light">SolarCold</span>
           </h1>
           <p className="page-description">
-            A multidisciplinary consortium of research laboratories (LSE, LREE, LETTM),
+            A multidisciplinary consortium of research laboratories (LSE, LREE),
             industrial partner SQLI Services, and the core implementation team presented
             during the kickoff session of 28 April 2026.
           </p>

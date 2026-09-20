@@ -8,30 +8,30 @@ const roadmapPhases = [
     phase: 'OS1',
     title: `Analyse des besoins et spécifications techniques`,
     period: 'M2',
-    status: 'current',
+    status: 'completed',
     description: `Au cours des deux premiers mois du projet, une étude préliminaire sera réalisée afin d'identifier les besoins énergétiques, thermiques et frigorifiques de la chambre froide. Cette phase aboutira également à la définition des spécifications techniques nécessaires à l'intégration du système photovoltaïque.`,
     milestones: [
       { text: `Étude préliminaire des besoins énergétiques, thermiques et frigorifiques`, done: true },
-      { text: `Définition des spécifications techniques pour l'intégration du système PV`, done: false },
+      { text: `Définition des spécifications techniques pour l'intégration du système PV`, done: true },
     ],
   },
   {
     phase: 'OS2',
     title: `Optimisation du système frigorifique`,
     period: 'M4 – M6',
-    status: 'upcoming',
+    status: 'completed',
     description: `À partir des résultats de l'étude préliminaire, des simulations des cycles frigorifiques seront réalisées afin d'optimiser les performances énergétiques de l'installation (M4). Les améliorations proposées seront ensuite validées par des analyses et des simulations détaillées, conduisant à une configuration optimisée du système (M6).`,
     milestones: [
-      { text: `Simulations des cycles frigorifiques pour optimiser les performances énergétiques (M4)`, done: false },
-      { text: `Analyses et simulations détaillées pour valider les améliorations proposées`, done: false },
-      { text: `Configuration optimisée du système frigorifique (M6)`, done: false },
+      { text: `Simulations des cycles frigorifiques pour optimiser les performances énergétiques (M4)`, done: true },
+      { text: `Analyses et simulations détaillées pour valider les améliorations proposées`, done: true },
+      { text: `Configuration optimisée du système frigorifique (M6)`, done: true },
     ],
   },
   {
     phase: 'OS3',
     title: `Conception du système photovoltaïque`,
     period: 'M9',
-    status: 'upcoming',
+    status: 'current',
     description: `Le système photovoltaïque destiné à alimenter la chambre froide sera modélisé et dimensionné en fonction des besoins identifiés. À l'issue de cette étape (M9), le dimensionnement sera validé et prêt pour la phase d'installation.`,
     milestones: [
       { text: `Modélisation et dimensionnement du système photovoltaïque`, done: false },
@@ -42,7 +42,7 @@ const roadmapPhases = [
     phase: 'OS4',
     title: `Réalisation du démonstrateur`,
     period: 'M18',
-    status: 'upcoming',
+    status: 'current',
     description: `Cette étape comprend l'acquisition des conteneurs, l'installation de la chambre froide optimisée ainsi que l'intégration du système photovoltaïque. La mise en service du démonstrateur et le suivi de ses performances seront réalisés à l'échéance du mois 18.`,
     milestones: [
       { text: `Acquisition des conteneurs`, done: false },
@@ -150,7 +150,7 @@ function Roadmap() {
             <div className="overall-progress-header">
               <span>Overall Progress</span>
               <span className="overall-progress-pct">
-                {Math.round(((completedCount + 0.4) / totalPhases) * 100)}%
+                {Math.round(((completedCount - 0.4) / totalPhases) * 100)}%
               </span>
             </div>
             <div className="overall-progress-bar">

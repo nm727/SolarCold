@@ -37,8 +37,8 @@ function Overview() {
             What is <span className="text-gold-light">SolarCold</span>?
           </h1>
           <p className="page-description">
-            Project T3P3 — Development of two smart, connected and mobile cold storage
-            containers powered by photovoltaic panels, integrating EMS and Digital Twin
+            Project T3P3 — Development of a smart, connected and mobile cold storage
+            container powered by photovoltaic panels, integrating EMS and Digital Twin
             technology for small-scale farmers in rural Tunisia.
           </p>
         </div>
@@ -50,18 +50,17 @@ function Overview() {
           <div className="ov-two-col">
             <div className="ov-text-block">
               <span className="section-tag">About the Project</span>
-              <h2 className="ov-heading">Two Mobile, Connected Cold Storage Containers Powered by Solar Energy</h2>
+              <h2 className="ov-heading">A Mobile, Connected Cold Storage Container Powered by Solar Energy</h2>
               <p>
                 SolarCold (Project Code: <strong>T3P3</strong>) is a research and development project under
                 the <strong>Green Impact</strong> initiative, coordinated by the <strong>Laboratory of Electrical
-                Systems (LSE)</strong> at ENIT, with project lead <strong>Sondes SKANDER-MUSTAPHA</strong>.
+                  Systems (LSE)</strong> at ENIT, with project lead <strong>Sondes SKANDER-MUSTAPHA</strong>.
                 The project's QehnA team within LSE brings extensive expertise in renewable energy,
                 modelling, design, control, and integration of energy systems.
               </p>
               <p>
-                Our general objective is to develop <strong>two mobile, connected cold storage
-                containers</strong> powered by solar photovoltaic energy — one installed at <strong>Manouba
-                Technopole</strong> and one at <strong>ENIT</strong> — integrating intelligent energy management
+                Our general objective is to develop <strong>a mobile, connected cold storage
+                  container</strong> powered by solar photovoltaic energy installed at <strong>ENIT</strong> — integrating intelligent energy management
                 (EMS) and a Digital Twin to reduce post-harvest losses by 25% and improve food security
                 for small-scale farmers in rural Tunisia. The project starts at TRL 4 and targets
                 TRL 7 for cooling technology and TRL 6 for Digital Twin.
@@ -80,14 +79,14 @@ function Overview() {
                 <Target size={22} className="info-card-icon" />
                 <div>
                   <strong>Project Goal</strong>
-                  <span>Develop two mobile, connected solar-powered cold storage containers with EMS and Digital Twin — 24-month project (M1–M24)</span>
+                  <span>Develop a mobile, connected solar-powered cold storage containers with EMS and Digital Twin — 24-month project (M1–M24)</span>
                 </div>
               </div>
               <div className="info-card">
                 <Globe size={22} className="info-card-icon" />
                 <div>
                   <strong>Coordinating Lab</strong>
-                  <span>Laboratory of Electrical Systems (LSE / QehnA team) — with LREE, LETTM, and SQLI Services</span>
+                  <span>Laboratory of Electrical Systems (LSE / QehnA team) — with LREE and SQLI Services</span>
                 </div>
               </div>
               <div className="info-card">
@@ -135,7 +134,7 @@ function Overview() {
               <h3>OS2 — Thermal & Energy Optimisation <small>(M6)</small></h3>
               <p>
                 Analyse thermal losses, COP and refrigeration performance. Simulate cycles with
-                optimised refrigerants. Led by <strong>LREE</strong> with LETTM. Deliverable:
+                optimised refrigerants. Led by <strong>LREE</strong>. Deliverable:
                 Analysis report with optimisation solutions.
               </p>
             </div>
@@ -161,8 +160,7 @@ function Overview() {
               <h3>OS4 — Experimental Validation <small>(M18)</small></h3>
               <p>
                 Full installation, experimental monitoring, cost analysis, and comparison with
-                conventional systems. Led by <strong>LREE + LSE</strong> with local farmers (Living Lab)
-                and LETTM. Deliverable: Final validation report and recommendations.
+                conventional systems. Led by <strong>LREE + LSE</strong> with local farmers (Living Lab). Deliverable: Final validation report and recommendations.
               </p>
             </div>
 
@@ -188,7 +186,7 @@ function Overview() {
               <p>
                 Complete Digital Twin model (PV, storage, loads, EMS). Plus: mobile app for farmers,
                 web marketplace for cold storage sharing/co-location, and a national statistical
-                observatory. Led by <strong>LSE</strong> with SQLI, LREE, and LETTM.
+                observatory. Led by <strong>LSE</strong> with SQLI and LREE.
               </p>
             </div>
           </div>
@@ -243,7 +241,7 @@ function Overview() {
         <div className="ov-container">
           <div className="ov-section-header">
             <span className="section-tag">Budget Snapshot</span>
-            <h2 className="ov-heading">Kickoff Presentation Figures (28 April 2026)</h2>
+            <h2 className="ov-heading">Figures</h2>
             <p className="ov-subheading">
               Consolidated project budget and the main expenditure distribution presented during kickoff.
             </p>
@@ -311,13 +309,12 @@ function Overview() {
               <p className="gi-text">
                 SolarCold (T3P3) is developed under the Green Impact convention, signed on
                 February 11, 2026. The project is coordinated by the <strong>Laboratory of
-                Electrical Systems (LSE)</strong> at ENIT and led by <strong>Sondes SKANDER-MUSTAPHA</strong>.
+                  Electrical Systems (LSE)</strong> at ENIT and led by <strong>Sondes SKANDER-MUSTAPHA</strong>.
                 The consortium includes 10+ scientific publications and 3 patents filed or pending.
               </p>
               <p className="gi-text">
                 Our consortium brings together the <strong>Laboratory of Energy and Environment
-                (LREE)</strong>, the <strong>Laboratory of Energy, Thermal and Mass Transfers
-                (LETTM)</strong>, and industrial partner <strong>SQLI Services</strong> — a leading
+                  (LREE)</strong> and industrial partner <strong>SQLI Services</strong> — a leading
                 Tunisian digital services company (30% of revenue invested in R&D) contributing
                 expertise in Digital Twin, mobile applications, AI-powered platforms, and web
                 marketplace development.
