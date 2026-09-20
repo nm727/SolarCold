@@ -1,0 +1,17 @@
+OS1 – Analyse des besoins et spécifications techniques (M2)
+Au cours des deux premiers mois du projet, une étude préliminaire sera réalisée afin d'identifier les besoins énergétiques, thermiques et frigorifiques de la chambre froide. Cette phase aboutira également à la définition des spécifications techniques nécessaires à l'intégration du système photovoltaïque.
+
+OS2 – Optimisation du système frigorifique (M4 – M6)
+À partir des résultats de l'étude préliminaire, des simulations des cycles frigorifiques seront réalisées afin d'optimiser les performances énergétiques de l'installation (M4). Les améliorations proposées seront ensuite validées par des analyses et des simulations détaillées, conduisant à une configuration optimisée du système (M6).
+
+OS3 – Conception du système photovoltaïque (M9)
+Le système photovoltaïque destiné à alimenter la chambre froide sera modélisé et dimensionné en fonction des besoins identifiés. À l'issue de cette étape (M9), le dimensionnement sera validé et prêt pour la phase d'installation.
+
+OS4 – Réalisation du démonstrateur (M18)
+Cette étape comprend l'acquisition des conteneurs, l'installation de la chambre froide optimisée ainsi que l'intégration du système photovoltaïque. La mise en service du démonstrateur et le suivi de ses performances seront réalisés à l'échéance du mois 18.
+
+OS5 – Développement du système de gestion énergétique (EMS) (M12)
+Un premier prototype fonctionnel de l'algorithme de gestion de l'énergie (EMS) sera développé et testé en laboratoire. Les performances de cet algorithme seront ensuite optimisées à partir de cas d'utilisation réels, avec une validation prévue au mois 12.
+
+OS6 – Développement du jumeau numérique et de la plateforme collaborative (M24)
+La dernière phase du projet portera sur le développement et la validation d'un premier prototype du Digital Twin de la chambre froide. En parallèle, une plateforme web destinée à la mutualisation et au suivi des chambres froides sera développée et mise en ligne. Ces deux livrables sont prévus pour le mois 24

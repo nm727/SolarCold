@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@400;500;600;700&display=swap');
+
+:root {
+  /* Core palette — Solar gold + deep navy + eco green */
+  --solar-gold: #F5A623;
+  --solar-gold-light: #FFD580;
+  --solar-gold-dark: #C77D0A;
+  --navy: #0A1628;
+  --navy-light: #132039;
+  --navy-mid: #1A2D4D;
+  --eco-green: #2ECC71;
+  --eco-green-dark: #1FA855;
+  --eco-green-light: #A8E6CF;
+  --sky-blue: #3498DB;
+  --sky-blue-light: #85C1E9;
+  --coral: #E74C3C;
+
+  /* Backgrounds */
+  --bg-primary: #F7F9FC;
+  --bg-secondary: #FFFFFF;
+  --bg-card: #FFFFFF;
+  --bg-dark: #0A1628;
+
+  /* Text */
+  --text-primary: #1A2D4D;
+  --text-secondary: #5A6A82;
+  --text-muted: #8E99A8;
+  --text-on-dark: #F7F9FC;
+  --text-on-gold: #1A2D4D;
+
+  /* Borders */
+  --border-light: #E2E8F0;
+  --border-medium: #CBD5E1;
+
+  /* Shadows */
+  --shadow-sm: 0 1px 3px rgba(10, 22, 40, 0.06);
+  --shadow-md: 0 4px 12px rgba(10, 22, 40, 0.08);
+  --shadow-lg: 0 12px 40px rgba(10, 22, 40, 0.12);
+  --shadow-xl: 0 20px 60px rgba(10, 22, 40, 0.16);
+  --shadow-gold: 0 4px 20px rgba(245, 166, 35, 0.3);
+
+  /* Gradients */
+  --gradient-solar: linear-gradient(135deg, #F5A623 0%, #FFD580 100%);
+  --gradient-navy: linear-gradient(135deg, #0A1628 0%, #1A2D4D 100%);
+  --gradient-green: linear-gradient(135deg, #2ECC71 0%, #A8E6CF 100%);
+  --gradient-hero: linear-gradient(135deg, #0A1628 0%, #1A2D4D 50%, #132039 100%);
+  --gradient-card: linear-gradient(180deg, #FFFFFF 0%, #F7F9FC 100%);
+
+  /* Radius */
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 20px;
+  --radius-xl: 28px;
+  --radius-full: 9999px;
+
+  /* Transitions */
+  --transition-fast: 0.15s ease;
+  --transition-base: 0.3s ease;
+  --transition-slow: 0.5s ease;
+
+  /* Fonts */
+  --font-heading: 'Space Grotesk', sans-serif;
+  --font-body: 'Inter', sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  font-family: var(--font-body);
+  color: var(--text-primary);
+  background: var(--bg-primary);
+  line-height: 1.6;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading);
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  background: none;
+  font-family: var(--font-body);
+}
+
+::selection {
+  background: var(--solar-gold);
+  color: var(--navy);
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--bg-primary);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--border-medium);
+  border-radius: var(--radius-full);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--text-muted);
+}

@@ -1,0 +1,433 @@
+/* ===========================
+   PAGE HERO (shared pattern)
+   =========================== */
+.page-hero {
+  position: relative;
+  padding: 100px 48px 80px;
+  overflow: hidden;
+}
+
+.page-hero-bg {
+  position: absolute;
+  inset: 0;
+}
+
+.page-hero-bg-img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center 30%;
+}
+
+.page-hero-bg-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(135deg,
+      rgba(10, 22, 40, 0.82) 0%,
+      rgba(10, 22, 40, 0.65) 60%,
+      rgba(10, 22, 40, 0.78) 100%);
+}
+
+.page-hero-content {
+  position: relative;
+  z-index: 1;
+  max-width: 700px;
+}
+
+.page-tag {
+  display: inline-block;
+  font-size: 0.72rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  color: var(--solar-gold);
+  background: rgba(245, 166, 35, 0.12);
+  padding: 6px 16px;
+  border-radius: var(--radius-full);
+  margin-bottom: 16px;
+}
+
+.page-title {
+  font-size: clamp(2rem, 4.5vw, 3rem);
+  color: #FFFFFF;
+  margin-bottom: 16px;
+  letter-spacing: -0.02em;
+}
+
+.text-gold-light {
+  color: var(--solar-gold);
+}
+
+.page-description {
+  font-size: 1.05rem;
+  color: rgba(255, 255, 255, 0.6);
+  line-height: 1.7;
+  max-width: 560px;
+}
+
+/* ===========================
+   OVERVIEW SECTIONS
+   =========================== */
+.ov-section {
+  padding: 80px 48px;
+}
+
+.ov-section--alt {
+  background: var(--bg-secondary);
+}
+
+.ov-section--dark {
+  background: var(--gradient-navy);
+}
+
+.ov-container {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.ov-section-header {
+  text-align: center;
+  margin-bottom: 56px;
+}
+
+.ov-heading {
+  font-size: clamp(1.6rem, 3vw, 2.2rem);
+  color: var(--text-primary);
+  margin-bottom: 12px;
+  letter-spacing: -0.02em;
+}
+
+.ov-heading--light {
+  color: #FFFFFF;
+}
+
+.ov-subheading {
+  font-size: 1rem;
+  color: var(--text-secondary);
+  max-width: 580px;
+  margin: 0 auto;
+  line-height: 1.65;
+}
+
+/* Two column layout */
+.ov-two-col {
+  display: grid;
+  grid-template-columns: 1.2fr 1fr;
+  gap: 56px;
+  align-items: start;
+}
+
+.ov-text-block .section-tag {
+  margin-bottom: 16px;
+}
+
+.ov-text-block .ov-heading {
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.ov-text-block p {
+  color: var(--text-secondary);
+  font-size: 0.95rem;
+  line-height: 1.75;
+  margin-bottom: 16px;
+}
+
+.ov-text-block p strong {
+  color: var(--text-primary);
+}
+
+/* Info cards */
+.ov-info-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.info-card {
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+  padding: 24px;
+  background: var(--bg-card);
+  border: 1px solid var(--border-light);
+  border-radius: var(--radius-md);
+  transition: all var(--transition-base);
+}
+
+.info-card:hover {
+  box-shadow: var(--shadow-md);
+  border-color: var(--solar-gold-light);
+}
+
+.info-card-icon {
+  color: var(--solar-gold-dark);
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+
+.info-card strong {
+  display: block;
+  font-size: 0.92rem;
+  color: var(--text-primary);
+  margin-bottom: 4px;
+}
+
+.info-card span {
+  font-size: 0.84rem;
+  color: var(--text-secondary);
+  line-height: 1.5;
+}
+
+/* ===========================
+   HOW IT WORKS
+   =========================== */
+.how-it-works-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 24px;
+}
+
+.how-step {
+  background: var(--bg-primary);
+  border: 1px solid var(--border-light);
+  border-radius: var(--radius-lg);
+  padding: 36px 28px;
+  position: relative;
+  transition: all var(--transition-base);
+}
+
+.how-step:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-lg);
+}
+
+.how-step-number {
+  font-family: var(--font-heading);
+  font-size: 3rem;
+  font-weight: 800;
+  color: rgba(10, 22, 40, 0.04);
+  position: absolute;
+  top: 16px;
+  right: 20px;
+  line-height: 1;
+}
+
+.how-step-icon {
+  width: 60px;
+  height: 60px;
+  border-radius: var(--radius-md);
+  background: rgba(245, 166, 35, 0.1);
+  color: var(--solar-gold-dark);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.how-step-icon--green {
+  background: rgba(46, 204, 113, 0.1);
+  color: var(--eco-green-dark);
+}
+
+.how-step-icon--blue {
+  background: rgba(52, 152, 219, 0.1);
+  color: var(--sky-blue);
+}
+
+.how-step-icon--navy {
+  background: rgba(26, 45, 77, 0.1);
+  color: var(--navy-mid);
+}
+
+.how-step h3 {
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+  color: var(--text-primary);
+}
+
+.how-step p {
+  color: var(--text-secondary);
+  font-size: 0.88rem;
+  line-height: 1.65;
+}
+
+/* ===========================
+   SPECS GRID
+   =========================== */
+.specs-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 20px;
+}
+
+.spec-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border-light);
+  border-radius: var(--radius-md);
+  padding: 28px 24px;
+  text-align: center;
+  transition: all var(--transition-base);
+}
+
+.spec-card:hover {
+  transform: translateY(-3px);
+  box-shadow: var(--shadow-md);
+  border-color: var(--solar-gold-light);
+}
+
+.spec-icon {
+  color: var(--solar-gold-dark);
+  margin-bottom: 12px;
+}
+
+.spec-value {
+  font-family: var(--font-heading);
+  font-size: 1.6rem;
+  font-weight: 800;
+  color: var(--text-primary);
+  margin-bottom: 6px;
+}
+
+.spec-label {
+  font-size: 0.78rem;
+  color: var(--text-muted);
+  font-weight: 500;
+}
+
+/* ===========================
+   GREEN IMPACT BLOCK
+   =========================== */
+.green-impact-block {
+  padding: 20px 0;
+}
+
+.gi-content .section-tag--light {
+  background: rgba(46, 204, 113, 0.15);
+  color: var(--eco-green);
+}
+
+.gi-text {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 1rem;
+  line-height: 1.75;
+  margin-bottom: 16px;
+  max-width: 720px;
+}
+
+.gi-values {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin-top: -50px;
+}
+
+.gi-value {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 18px;
+  background: rgba(255, 255, 255, 0.06);
+  border-radius: var(--radius-full);
+  color: var(--eco-green);
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+.gi-logos {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  flex-wrap: wrap;
+  margin-top: 32px;
+  padding-top: 28px;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.gi-logos img {
+  height: 40px;
+  width: auto;
+  object-fit: contain;
+  opacity: 0.8;
+  transition: opacity var(--transition-fast);
+  filter: brightness(0) invert(1) opacity(0.75);
+}
+
+.gi-logos img:hover {
+  opacity: 1;
+  filter: brightness(0) invert(1) opacity(1);
+}
+
+/* ===========================
+   BUTTONS (reuse from Home)
+   =========================== */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 14px 32px;
+  border-radius: var(--radius-full);
+  font-size: 0.95rem;
+  font-weight: 600;
+  transition: all var(--transition-base);
+  cursor: pointer;
+}
+
+.btn-primary {
+  background: var(--gradient-solar);
+  color: var(--navy);
+  box-shadow: var(--shadow-gold);
+}
+
+.btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 30px rgba(245, 166, 35, 0.4);
+}
+
+.btn-ghost {
+  color: var(--text-primary);
+  background: transparent;
+  border: 2px solid var(--border-medium);
+}
+
+.btn-ghost:hover {
+  border-color: var(--solar-gold);
+  color: var(--solar-gold-dark);
+}
+
+/* ===========================
+   RESPONSIVE
+   =========================== */
+@media (max-width: 960px) {
+  .ov-two-col {
+    grid-template-columns: 1fr;
+  }
+
+  .how-it-works-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .page-hero {
+    padding: 80px 24px 60px;
+  }
+
+  .ov-section {
+    padding: 56px 24px;
+  }
+
+  .how-it-works-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .specs-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .gi-values {
+    flex-direction: column;
+  }
+}
