@@ -55,7 +55,7 @@ function Home() {
 
           <p className="hero-description">
             SolarCold is developing a mobile, connected cold storage container powered by
-            photovoltaic panels — integrating smart energy management (EMS) and Digital Twin
+            photovoltaic panels, integrating smart energy management (EMS) and Digital Twin
             technology to reduce post-harvest losses by 25% and improve food security for
             small-scale farmers in rural Tunisia.
           </p>
@@ -106,7 +106,7 @@ function Home() {
             </h2>
             <p className="section-subtitle">
               Cold storage in Tunisia is a strategic challenge: postharvest losses of perishable
-              products — fruits, vegetables, potatoes, and dates — reach significant levels due
+              products like fruits, vegetables, potatoes, and dates reach significant levels due
               to the lack of an efficient cold chain (FAO, CIHEAM). Existing facilities are
               concentrated with industrial operators, making access difficult for small-scale
               farmers. SolarCold develops decentralised, smart, solar-powered cold storage to
@@ -121,7 +121,7 @@ function Home() {
               </div>
               <h3>Photovoltaic Powered</h3>
               <p>
-                A mobile cold storage containers powered entirely by solar PV panels — sized
+                A mobile cold storage containers powered entirely by solar PV panels, sized
                 and optimised for Tunisian rural conditions, delivering autonomous off-grid
                 refrigeration. Starting at TRL 4, targeting TRL 7.
               </p>
@@ -146,7 +146,7 @@ function Home() {
               <h3>Thermal Optimisation</h3>
               <p>
                 CFD modelling and simulation of refrigeration cycles with optimised refrigerants
-                ensure thermal uniformity and improved COP — reducing quality degradation of
+                ensure thermal uniformity and improved COP, reducing quality degradation of
                 stored agricultural products.
               </p>
             </div>
@@ -158,7 +158,7 @@ function Home() {
               <h3>Smart Energy Management</h3>
               <p>
                 An intelligent EMS algorithm optimises power distribution between PV generation,
-                energy storage, and cold storage loads — developed and validated through simulation
+                energy storage, and cold storage loads, developed and validated through simulation
                 and real-world testing.
               </p>
             </div>
@@ -201,7 +201,7 @@ function Home() {
               </h2>
               <p className="impact-text">
                 Cold storage in Tunisia is a <strong>strategic challenge</strong>: postharvest losses of
-                perishable products — fruits, vegetables, potatoes, and dates — reach alarming
+                perishable products like fruits, vegetables, potatoes, and dates reach alarming
                 levels. Studies by <strong>FAO and CIHEAM</strong> confirm that the absence of adequate
                 storage infrastructure forces farmers to sell immediately at low prices, directly
                 affecting incomes and national food security.
@@ -211,7 +211,7 @@ function Home() {
                   operators</strong>, making access difficult for small-scale farmers and reinforcing
                 value chain imbalances. Conventional systems are energy-intensive and rely on
                 outdated technologies. SolarCold develops <strong>a mobile, connected, solar-powered
-                  container</strong> as a decentralised alternative — targeting a 25% reduction in
+                  container</strong> as a decentralised alternative targeting a 25% reduction in
                 post-harvest losses.
               </p>
 
@@ -227,7 +227,7 @@ function Home() {
                   <Zap size={20} className="impact-icon" />
                   <div>
                     <strong>Energy Independence</strong>
-                    <span>Fully autonomous operation via solar photovoltaic energy — no grid required</span>
+                    <span>Fully autonomous operation via solar photovoltaic energy, no grid required</span>
                   </div>
                 </div>
                 <div className="impact-highlight">
@@ -294,7 +294,7 @@ function Home() {
                 <img src={logoSolarcold} alt="SolarCold" className="footer-logo-img" />
                 <span>SolarCold</span>
               </div>
-              <p>Project T3P3 — A Green Impact initiative. Development of a smart, connected and mobile cold storage container powered by photovoltaic panels for rural Tunisia.</p>
+              <p>Project T3P3: A Green Impact initiative. Development of a smart, connected and mobile cold storage container powered by photovoltaic panels for rural Tunisia.</p>
             </div>
             <div className="footer-links">
               <Link to="/">Home</Link>
@@ -318,7 +318,7 @@ function Home() {
             </div>
           </div>
           <div className="footer-bottom">
-            <span>© 2026 SolarCold — Green Impact. All rights reserved.</span>
+            <span>© 2026 SolarCold, Green Impact. All rights reserved.</span>
           </div>
         </div>
       </footer>

@@ -112,7 +112,7 @@ function Roadmap() {
             Project <span className="text-gold-light">Roadmap</span>
           </h1>
           <p className="page-description">
-            Follow the six specific objectives of Project T3P3 — from energy assessment
+            Follow the six specific objectives of Project T3P3 from energy assessment
             through to a fully operational Digital Twin ecosystem.
           </p>
         </div>

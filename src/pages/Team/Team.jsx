@@ -12,22 +12,22 @@ const teamMembers = [
 
   {
     name: 'Laboratory of Electrical Systems (LSE)',
-    role: 'Coordinating Lab — ENIT',
-    bio: 'Lead research laboratory at ENIT, recognised for innovative work in electrical energy conversion and distribution with focus on decentralised production. The QehnA team leads OS1 (partially), OS3, OS5, and OS6 — covering PV system design, EMS development, and Digital Twin.',
+    role: 'Coordinating Lab, ENIT',
+    bio: 'Lead research laboratory at ENIT, recognised for innovative work in electrical energy conversion and distribution with focus on decentralised production. The QehnA team leads OS1 (partially), OS3, OS5, and OS6 covering PV system design, EMS development, and Digital Twin.',
     expertise: ['Electrical Systems', 'PV Sizing', 'EMS Development', 'Digital Twin'],
     avatar: logoLse,
   },
   {
     name: 'Laboratory of Energy & Environment (LREE)',
-    role: 'Research Partner — ENIT',
-    bio: 'Specialises in thermal and energy performance, including industrial applications and sustainable energy management. Leads OS1, OS2, and OS4 — energy needs assessment, thermal optimisation (COP, refrigeration cycles), and experimental validation with local farming communities.',
+    role: 'Research Partner, ENIT',
+    bio: 'Specialises in thermal and energy performance, including industrial applications and sustainable energy management. Leads OS1, OS2, and OS4 energy needs assessment, thermal optimisation (COP, refrigeration cycles), and experimental validation with local farming communities.',
     expertise: ['Thermal Performance', 'Refrigeration Cycles', 'Energy Valorisation', 'CFD Modelling'],
     avatar: logoLree,
   },
 
   {
     name: 'SQLI Services',
-    role: 'Industrial Partner — Tunisia',
+    role: 'Industrial Partner, Tunisia',
     bio: 'A leading Tunisian digital services company specialising in technology platforms, AI-powered information systems, mobile applications, e-commerce, and digital consulting. Invests 30% of revenue in R&D with numerous academic collaborations (including Mobidoc theses). Leads digital development for OS5 (EMS) and OS6 (Digital Twin, mobile app, web marketplace, observatory).',
     expertise: ['Digital Twin', 'Mobile Apps', 'Web Marketplace', 'AI & Data', 'R&D (30%)'],
     avatar: logoSqli,

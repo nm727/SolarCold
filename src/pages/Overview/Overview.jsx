@@ -37,7 +37,7 @@ function Overview() {
             What is <span className="text-gold-light">SolarCold</span>?
           </h1>
           <p className="page-description">
-            Project T3P3 — Development of a smart, connected and mobile cold storage
+            Project T3P3: Development of a smart, connected and mobile cold storage
             container powered by photovoltaic panels, integrating EMS and Digital Twin
             technology for small-scale farmers in rural Tunisia.
           </p>
@@ -60,7 +60,7 @@ function Overview() {
               </p>
               <p>
                 Our general objective is to develop <strong>a mobile, connected cold storage
-                  container</strong> powered by solar photovoltaic energy installed at <strong>ENIT</strong> — integrating intelligent energy management
+                  container</strong> powered by solar photovoltaic energy installed at <strong>ENIT</strong> integrating intelligent energy management
                 (EMS) and a Digital Twin to reduce post-harvest losses by 25% and improve food security
                 for small-scale farmers in rural Tunisia. The project starts at TRL 4 and targets
                 TRL 7 for cooling technology and TRL 6 for Digital Twin.
@@ -79,21 +79,21 @@ function Overview() {
                 <Target size={22} className="info-card-icon" />
                 <div>
                   <strong>Project Goal</strong>
-                  <span>Develop a mobile, connected solar-powered cold storage containers with EMS and Digital Twin — 24-month project (M1–M24)</span>
+                  <span>Develop a mobile, connected solar-powered cold storage containers with EMS and Digital Twin, 24-month project (M1–M24)</span>
                 </div>
               </div>
               <div className="info-card">
                 <Globe size={22} className="info-card-icon" />
                 <div>
                   <strong>Coordinating Lab</strong>
-                  <span>Laboratory of Electrical Systems (LSE / QehnA team) — with LREE and SQLI Services</span>
+                  <span>Laboratory of Electrical Systems (LSE / QehnA team) with LREE and SQLI Services</span>
                 </div>
               </div>
               <div className="info-card">
                 <Leaf size={22} className="info-card-icon" />
                 <div>
                   <strong>Target & Impact</strong>
-                  <span>Rural Tunisia — TRL 4→7 for cooling, TRL 4→6 for Digital Twin, 25% reduction in post-harvest losses</span>
+                  <span>Rural Tunisia: TRL 4→7 for cooling, TRL 4→6 for Digital Twin, 25% reduction in post-harvest losses</span>
                 </div>
               </div>
             </div>
@@ -108,7 +108,7 @@ function Overview() {
             <span className="section-tag">How It Works</span>
             <h2 className="ov-heading">The Technology Behind SolarCold</h2>
             <p className="ov-subheading">
-              Six specific objectives and a 7-phase methodology drive delivery — from launch and thermal analysis to Digital Twin and final field validation.
+              Six specific objectives and a 7-phase methodology drive delivery from launch and thermal analysis to Digital Twin and final field validation.
             </p>
           </div>
 
@@ -118,7 +118,7 @@ function Overview() {
               <div className="how-step-icon">
                 <Zap size={32} />
               </div>
-              <h3>OS1 — Energy Needs Assessment <small>(M2)</small></h3>
+              <h3>OS1: Energy Needs Assessment <small>(M2)</small></h3>
               <p>
                 Evaluate the energy requirements of the cold storage containers and define
                 PV specifications. Led by <strong>LREE</strong> with LSE. Deliverable: Technical
@@ -131,7 +131,7 @@ function Overview() {
               <div className="how-step-icon how-step-icon--green">
                 <Thermometer size={32} />
               </div>
-              <h3>OS2 — Thermal & Energy Optimisation <small>(M6)</small></h3>
+              <h3>OS2: Thermal & Energy Optimisation <small>(M6)</small></h3>
               <p>
                 Analyse thermal losses, COP and refrigeration performance. Simulate cycles with
                 optimised refrigerants. Led by <strong>LREE</strong>. Deliverable:
@@ -144,7 +144,7 @@ function Overview() {
               <div className="how-step-icon how-step-icon--blue">
                 <Sun size={32} />
               </div>
-              <h3>OS3 — PV System Design & Sizing <small>(M9)</small></h3>
+              <h3>OS3: PV System Design & Sizing <small>(M9)</small></h3>
               <p>
                 Dimension, simulate, and design the photovoltaic system for optimal integration.
                 Led by <strong>LSE</strong>. Deliverable: PV design and simulation report with
@@ -157,7 +157,7 @@ function Overview() {
               <div className="how-step-icon how-step-icon--navy">
                 <Layers size={32} />
               </div>
-              <h3>OS4 — Experimental Validation <small>(M18)</small></h3>
+              <h3>OS4: Experimental Validation <small>(M18)</small></h3>
               <p>
                 Full installation, experimental monitoring, cost analysis, and comparison with
                 conventional systems. Led by <strong>LREE + LSE</strong> with local farmers (Living Lab). Deliverable: Final validation report and recommendations.
@@ -169,7 +169,7 @@ function Overview() {
               <div className="how-step-icon how-step-icon--green">
                 <Cpu size={32} />
               </div>
-              <h3>OS5 — EMS Algorithm <small>(M12)</small></h3>
+              <h3>OS5: EMS Algorithm <small>(M12)</small></h3>
               <p>
                 Design, develop, test, and optimise the intelligent EMS algorithm integrating
                 PV generation, storage, and cold loads. Led by <strong>LSE</strong> with SQLI.
@@ -182,7 +182,7 @@ function Overview() {
               <div className="how-step-icon">
                 <Globe size={32} />
               </div>
-              <h3>OS6 — Digital Twin & Platforms <small>(M24)</small></h3>
+              <h3>OS6: Digital Twin & Platforms <small>(M24)</small></h3>
               <p>
                 Complete Digital Twin model (PV, storage, loads, EMS). Plus: mobile app for farmers,
                 web marketplace for cold storage sharing/co-location, and a national statistical
@@ -314,7 +314,7 @@ function Overview() {
               </p>
               <p className="gi-text">
                 Our consortium brings together the <strong>Laboratory of Energy and Environment
-                  (LREE)</strong> and industrial partner <strong>SQLI Services</strong> — a leading
+                  (LREE)</strong> and industrial partner <strong>SQLI Services</strong> a leading
                 Tunisian digital services company (30% of revenue invested in R&D) contributing
                 expertise in Digital Twin, mobile applications, AI-powered platforms, and web
                 marketplace development.
