@@ -1,7 +1,0 @@
-SOLARCOLD (pages)
-- Home Page
-- Project overview
-- Team
-- Gallery
-- roadmap that showcases where we're at right now
-In the home page make a vertical bar to navigate to the other pages, make this website professional. try to fill the info with your best capabilities, otherwise leave placeholders for the text. Make the website aesthetically pleasing with images and great ui/ux. be creative yet professional.

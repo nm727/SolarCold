@@ -86,7 +86,7 @@ function Overview() {
                 <Globe size={22} className="info-card-icon" />
                 <div>
                   <strong>Coordinating Lab</strong>
-                  <span>Laboratory of Electrical Systems (LSE / QehnA team) with LREE and SQLI Services</span>
+                  <span>Laboratory of Electrical Systems (LSE / QehnA team) with LEE and SQLI Services</span>
                 </div>
               </div>
               <div className="info-card">
@@ -121,7 +121,7 @@ function Overview() {
               <h3>OS1: Energy Needs Assessment <small>(M2)</small></h3>
               <p>
                 Evaluate the energy requirements of the cold storage containers and define
-                PV specifications. Led by <strong>LREE</strong> with LSE. Deliverable: Technical
+                PV specifications. Led by <strong>LEE</strong> with LSE. Deliverable: Technical
                 report on electrical needs and PV specifications.
               </p>
             </div>
@@ -134,7 +134,7 @@ function Overview() {
               <h3>OS2: Thermal & Energy Optimisation <small>(M6)</small></h3>
               <p>
                 Analyse thermal losses, COP and refrigeration performance. Simulate cycles with
-                optimised refrigerants. Led by <strong>LREE</strong>. Deliverable:
+                optimised refrigerants. Led by <strong>LEE</strong>. Deliverable:
                 Analysis report with optimisation solutions.
               </p>
             </div>
@@ -160,7 +160,7 @@ function Overview() {
               <h3>OS4: Experimental Validation <small>(M18)</small></h3>
               <p>
                 Full installation, experimental monitoring, cost analysis, and comparison with
-                conventional systems. Led by <strong>LREE + LSE</strong> with local farmers (Living Lab). Deliverable: Final validation report and recommendations.
+                conventional systems. Led by <strong>LEE + LSE</strong> with local farmers (Living Lab). Deliverable: Final validation report and recommendations.
               </p>
             </div>
 
@@ -186,7 +186,7 @@ function Overview() {
               <p>
                 Complete Digital Twin model (PV, storage, loads, EMS). Plus: mobile app for farmers,
                 web marketplace for cold storage sharing/co-location, and a national statistical
-                observatory. Led by <strong>LSE</strong> with SQLI and LREE.
+                observatory. Led by <strong>LSE</strong> with SQLI and LEE.
               </p>
             </div>
           </div>
@@ -314,7 +314,7 @@ function Overview() {
               </p>
               <p className="gi-text">
                 Our consortium brings together the <strong>Laboratory of Energy and Environment
-                  (LREE)</strong> and industrial partner <strong>SQLI Services</strong> a leading
+                  (LEE)</strong> and industrial partner <strong>SQLI Services</strong> a leading
                 Tunisian digital services company (30% of revenue invested in R&D) contributing
                 expertise in Digital Twin, mobile applications, AI-powered platforms, and web
                 marketplace development.
